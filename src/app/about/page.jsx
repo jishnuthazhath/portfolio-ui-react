@@ -2,7 +2,7 @@
 export default function About() {
 
   const timeline = [
-    { year: "1995", description: "hello world!, born in Thrissur Kerala" },
+    { year: "1995", description: "hello world!, born in Thrissur, Kerala" },
     { year: "2006", description: "Introduced to the world of computers" },
     { year: "2011", description: "Owned a pc" },
     { year: "2013", description: "Joined college - St Thomas College, Thrissur, Kerala" },
