@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={fontType.className}>
-        <div className="mx-auto px-6 max-w-4xl text-sm md:text-lg">
+        <div className="mx-auto px-4 max-w-4xl text-sm md:text-lg">
           <Header />
           {children}
           <Footer />

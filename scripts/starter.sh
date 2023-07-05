@@ -49,4 +49,4 @@ if which pm2 > /dev/null
     fi
 
 echo 'starting the application'
-pm2 start npm --name "jishnuthazhath" -- start
+pm2 start --name "jishnuthazhath" "npm run start-ssh"

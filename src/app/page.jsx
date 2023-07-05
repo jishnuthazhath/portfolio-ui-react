@@ -3,6 +3,9 @@ export default function Root() {
         <div className="md:leading-10">
             <p>I am a software engineer, a cinephile, an ambivert and a wannabe artist.</p>
             <p>from <b>Kerala, India.</b></p>
+            <br />
+            I got my resume <a className="hover:bg-black hover:text-white"
+                href="./jishnu-resume.pdf">here</a>.
         </div>
     );
 }
