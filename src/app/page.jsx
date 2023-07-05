@@ -5,7 +5,7 @@ export default function Root() {
             <p>from <b>Kerala, India.</b></p>
             <br />
             I got my resume <a className="hover:bg-black hover:text-white"
-                href="./jishnu-resume.pdf">here</a>.
+                href="./jishnu-resume.pdf" rel="noopener noreferrer nofollow" target="_blank">here</a>.
         </div>
     );
 }
