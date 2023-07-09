@@ -1,0 +1,6 @@
+Docker
+.dockerignore
+node_modules
+.next
+out
+scripts

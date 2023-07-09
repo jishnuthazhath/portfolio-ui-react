@@ -6,8 +6,8 @@ const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
 const handle = app.getRequestHandler();
 const httpsOptions = {
-  key: fs.readFileSync(process.env.CERTIFICATE_KEY),
-  cert: fs.readFileSync(process.env.CERTIFICATE),
+  key: fs.readFileSync("/etc/jishnuthazhath/privkey.pem"),
+  cert: fs.readFileSync("/etc/jishnuthazhath/fullchain.pem"),
 };
 app.prepare().then(() => {
   createServer(httpsOptions, (req, res) => {
