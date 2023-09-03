@@ -23,23 +23,21 @@ export default function About() {
     <>
       <section>
         <div>
-          <h1 className="mb-3 text-lg" ><strong> About Me</strong></h1>
-          <p className="leading-6"><b className="bg-yellow-300">hi there,</b> I sat down thinking what I should write here,
-            turns out its more difficult to write about yourself that to create a webpage and host it!</p>
-          <br />
-          <p className="leading-6">ok. here we go.</p>
-          <p className="leading-6">I am Jishnu a Software engineer by profession. I got most of my experience in backend developent,
+          <h1 className="mb-3 text-lg underline" ><strong> About Me</strong></h1>
+          <p className="leading-6"><b className="bg-yellow-300">hi there,</b> &nbsp;
+            I am Jishnu a Software engineer by profession. I got most of my experience in backend developent,
             building and automating cloud infrastructure. Slowly finding my way into frontend development.</p>
           <br />
           <p className="leading-6">I love to learn new things and create new stuff.
-            Most of the things that interests me comes down to these few things, they are computers, movies, and art. I am a wannabe artist, do sketch often.
-            You can find some of my &quot;attempts&quot; <a className="hover:bg-black hover:text-white" href="#">here</a></p>
+            Most of the things that interests me comes down to these few things, they are computers, movies, and art.
+            I am a wannabe artist, do sketch often.
+          </p>
         </div>
       </section>
 
       <section>
         <div className="mt-16">
-          <p className="mb-2 text-sm md:text-lg"><strong>Timeline</strong></p>
+          <p className="mb-2 text-sm md:text-lg underline"><strong>Timeline</strong></p>
           {timeline.map((item, idx) => (
             <div key={idx} className="space-x-2">
               <p className=" mb-3 md:mb-4">
